@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: myapp
 spec:
-  replicas: 6     # i just added it to my file 
+  replicas: 1    # i just added it to my file 
   selector:
     matchLabels:
       app: blue-green
