@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: deployNew-jp1-blue-green
+  name: deploy-new-jp1-blue-green
 spec:
   replicas: 6     # i just added it to my file 
   selector:
