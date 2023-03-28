@@ -13,5 +13,5 @@ spec:
     spec:
       containers:
         - name: blue-green
-          image: mtinside/blue-green:blue
+          image: mtinside/blue-green:green
           imagePullPolicy: Always
