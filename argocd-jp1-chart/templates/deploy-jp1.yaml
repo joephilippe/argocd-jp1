@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: deploy-jp1-blue-green
 spec:
+  replicas: 3      # i just added it to my file 
   selector:
     matchLabels:
       app: blue-green
